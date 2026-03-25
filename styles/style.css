@@ -48,3 +48,10 @@ body {
     margin: 10px 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
+/* Imagem da Promo */
+.imagem-promo {
+    width: 450px;
+    height: 250px;
+    object-fit: cover; /* evita imagem “torta” */
+}
