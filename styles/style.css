@@ -190,3 +190,12 @@ body {
         width: 90%;
     }
 }
+
+.btn-whatsapp {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
