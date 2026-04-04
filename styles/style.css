@@ -5,7 +5,10 @@ body {
     background-color: #000;
     font-family: Arial, sans-serif;
     text-align: center;
+
+    margin: 0;
 }
+
 
 .text-color {
     color: #fff;
@@ -103,6 +106,7 @@ body {
     border-radius: 15px;
     width: 250px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
 }
 
 .produto:hover {
@@ -110,7 +114,7 @@ body {
 }
 
 .imagem-produto {
-    width: 250px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
@@ -193,9 +197,25 @@ body {
 
 .btn-whatsapp {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: green;
-    color: white;
+    padding: 12px 20px;
+    background-color: #25D366;
+    color: #fff;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn-whatsapp:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: #111;
+    color: #aaa;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 30px;
 }
